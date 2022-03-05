@@ -24,7 +24,8 @@ else:
     except:
         raise ValueError('invalid input')
 
-
+    
+    
 while len(setNum)<= lines: #factorial - rangeNum
     password = "".join(choice(char)for x in rangeList) #password = "".join(choices(char,k=4))
     print(password)
